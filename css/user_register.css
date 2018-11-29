@@ -1,0 +1,103 @@
+.header-html{
+    width:100%;
+    height:197px;
+}
+.footer-html{
+    width:100%;
+    height:415px;
+}
+.footer-html{
+   margin:0;
+   padding:0;
+}
+.reg_header_top{
+    width:100%;
+    height:auto;
+    background: #fff;
+    box-shadow:1px 5px rgba(98,105,109,0.5);
+}
+.reg_header_center{
+    width:980px;
+    height:60px;
+    color:#333;
+    padding:20px 0;
+    margin:0 auto;
+}
+.reg_login{
+    height:22px;
+    line-height:20px;
+    margin-top:36px;
+    text-align: right;
+    font-size:14px;
+    float:right;
+}
+.reg_login a{
+    background:#c3625d;
+    border-radius: 2px;
+    color:#fff;
+    margin-left:6px;
+    text-decoration: none;
+    float:right;
+}
+.reg_main_center{
+    width:980px;
+    
+    border-radius:5px;
+    background:#fff;
+    box-shadow:1px 1px 5px rgba(98,105,109,0.5);
+    margin:50px  auto 0;
+}
+.reg_nav{
+    width:980px;
+    font-size:18px;
+    text-align: center;
+    padding:0;
+}
+.user_reg{
+    
+    list-style: none;
+    color:#c3625d;
+    height:56px;
+    line-height:56px;
+    border-bottom:1px solid #c3625d;
+}
+.reg_cont{
+    padding:40px 0;
+}
+.register_info{
+    width:400px;
+    margin:0 auto;
+}
+.register_info>ul{
+    list-style: none;
+}
+.input_box{
+    border-color:#fe655c;
+    border:1px solid #ccc;
+    height:40px;
+    line-height:40px;
+    padding:0 6px;
+    position: relative;
+    cursor: text; 
+    zoom:1;
+}
+.t_text{
+    position: absolute;
+    color:#ccc;
+    left:14px;
+    top:0;
+    font-size:14px;
+}
+.input_box input{
+    border:0;
+    padding:0px 6px;
+    width:350px;
+    height:40px;
+    line-height:40px;
+    overflow: hidden;
+    color:#333;
+    margin-left:2px;
+    cursor:text;
+    font-size:14px;
+}
+

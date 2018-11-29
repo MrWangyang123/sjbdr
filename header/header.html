@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <div class="header">
+       <div class="header-top">
+        <div class="top-zhong">
+            <div id="top-main">
+                 <a class="my" href="#" data-trigger="dropdown">我的信息</a>
+                <div class="top-hide" style="display:none"  >
+                    <li> <a href="#">我的订单</a></li>
+                    <li> <a href="#">我的地址</a></li>
+                    <li> <a href="#">我的收藏</a></li>
+                 </div>
+            </div>
+          <div id="top-login">
+                  <li><a href="#">会员登录</a></li>
+                  <li><span>|</span></li>
+                  <li><a href="#">会员注册</a></li>    
+          </div>
+        </div>
+       </div>
+  
+       <div class="header-center">
+        <div id="center-w">
+            <div class="top-mark">
+                <img src="img/cat_ico.png" alt="">
+                <h3>世纪摆渡人</h3>
+                <span>|</span>
+                <a href="#">世纪摆渡人图书专营店</a>
+            </div>
+            <div id="kongbai"></div>
+            <div class="center-search">
+                <div id="top-input">
+                    <input id="in" type="text" value="请输入书名,作者名,出版社,书名...">
+                    <a href="#">搜索</a>
+                </div>
+                <div id="button-a">
+                    <span>热搜榜：</span>
+                    <a href="#">平凡世界</a>
+                    <a href="#">小王子</a>
+                    <a href="#">史记</a>
+                    <a href="#">小说</a>
+                    <a href="#">励志</a>
+                    <a href="#">育儿</a>
+                    
+                </div>
+            </div>
+            <div id="footer-shop">
+                <span></span>
+                <span>购物车</span>
+                <span>(0)</span>
+            </div>
+        </div>
+       </div>
+        <div class="header-footer">
+        <div id="footer-w">
+            <div id="footer-sort">
+                <div class="cate-title">
+                   <h2>
+                       <a href="#">所有商品分类</a>
+                    </h2>
+                </div>
+            </div>
+                <ul class="footer-sea">
+                    <li style="background-color:#b54f4a"><a href="#" >首页</a></li>
+                    <li><a href="#">好书推荐</a></li>
+                    <li><a href="#">文学小说馆</a></li>
+                    <li><a href="#">经管励志馆</a></li>
+                    <li><a href="#">哲学/宗教馆</a></li>
+                    <li><a href="#">团购活动</a></li>
+                    <li><a href="#">京东商城</a></li>
+                    <li><a href="#">天猫商城</a></li>
+                </ul>
+        </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script>
+   $("[data-trigger=dropdown]").parent()
+        .on("mouseover",function(){
+              $(this).children().last().show()})
+        .on("mouseout",function(){
+                $(this).children().last().hide()
+            })
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/user_register.css">
+</head>
+<body>
+    <header>
+        <iframe class="header-html" src="header/header.html" frameborder="0"></iframe>
+    </header>
+    <div class="reg_warp">
+      <div class="reg_header_top">
+          <div class="reg_header_center">
+              <p class="reg_login">
+                  <a href="#">登录</a>
+                "如已注册，点此"
+              </p>
+          </div>
+      </div>
+      <div class="reg_main_center">
+         <ul class="reg_nav">
+            <li class="user_reg">新用户注册</li> 
+         </ul>
+         <form method="post" action="/user/register">
+             用户：<input type="text" name="uname" ><br>
+             密码：<input type="text" name="upwd" ><br>
+             邮箱：<input type="text" name="email" ><br>
+             电话：<input type="text" name="phone" ><br>
+             <input type="submit">
+         </form>
+      </div>
+    </div>
+    <footer>
+        <iframe class="footer-html" src="footer/footer.html" frameborder="0"></iframe>
+    </footer>
+</body>
+</html>
